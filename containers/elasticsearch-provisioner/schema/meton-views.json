@@ -1,0 +1,36 @@
+{
+    "mappings": {
+        "properties": {
+            "@timestamp": {
+                "type": "date"
+            },
+            "campaign": {
+                "type": "keyword"
+            },
+            "delta": {
+                "type": "integer"
+            },
+            "entity_urn": {
+                "type": "keyword"
+            },
+            "medium": {
+                "type": "keyword"
+            },
+            "page_token": {
+                "type": "keyword"
+            },
+            "platform": {
+                "type": "keyword"
+            },
+            "position": {
+                "type": "integer"
+            },
+            "source": {
+                "type": "keyword"
+            },
+            "uuid": {
+                "type": "keyword"
+            }
+        }
+    }
+}
